@@ -20,7 +20,7 @@ const Home = () => {
       </nav>
 
       {/* Hero Section */}
-      <header className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('/images/hero-bg.jpg')" }}>
+      <header className="relative h-screen bg-cover bg-center" style={{ backgroundImage: "url('https://picsum.photos/1920/1080?random=1')" }}>
         <div className="absolute inset-0 bg-blue-700 opacity-60"></div>
         <div className="relative z-10 flex flex-col justify-center items-center h-full text-white text-center">
           <h1 className="text-6xl font-extrabold">Welcome to VESIT Book Connect</h1>
@@ -41,7 +41,7 @@ const Home = () => {
             VESIT Book Connect is dedicated to facilitating the exchange of engineering textbooks.
             Whether you're selling or buying, we provide a user-friendly platform tailored for students.
           </p>
-          <img src="/images/about.jpg" alt="About Us" className="mx-auto mb-4 rounded-lg shadow-lg" />
+          <img src="https://picsum.photos/800/400?random=2" alt="About Us" className="mx-auto mb-4 rounded-lg shadow-lg" />
         </div>
       </section>
 
@@ -51,7 +51,7 @@ const Home = () => {
         <div className="flex overflow-x-auto space-x-4 py-4 scrollbar-hide">
           {[...Array(5)].map((_, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md p-4 min-w-[250px] transition-transform hover:shadow-xl">
-              <img src={`/images/book${index + 1}.jpg`} alt={`Book ${index + 1}`} className="h-48 w-full object-cover rounded-t-lg" />
+              <img src={`https://picsum.photos/250/250?random=${index + 3}`} alt={`Book ${index + 1}`} className="h-48 w-full object-cover rounded-t-lg" />
               <h3 className="text-xl font-semibold mt-4 text-blue-600">Book Title {index + 1}</h3>
               <p className="text-blue-600">Author: Author {index + 1}</p>
               <p className="text-blue-600">Branch: Branch {index + 1}</p>
