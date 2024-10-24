@@ -11,11 +11,12 @@ const App = () => {
   const initialBooks = [
     {
       id: 1,
-      title: "The Great Gatsby",
-      author: "F. Scott Fitzgerald",
-      branch: "Literature",
-      year: "1925",
-      description: "A novel about the American dream.",
+      title: "Introduction to Algorithms",
+      author: "Thomas H. Cormen",
+      branch: "Computer Science",
+      year: 1,
+      
+      description: "A comprehensive introduction to the modern study of computer algorithms.",
       image: "https://www.gutenberg.org/cache/epub/64317/pg64317.cover.medium.jpg", // Reliable cover image
       sellerName: "Alice Johnson",
       sellerContact: "123-456-7890",
@@ -23,11 +24,12 @@ const App = () => {
     },
     {
       id: 2,
-      title: "1984",
-      author: "George Orwell",
-      branch: "Dystopian Fiction",
-      year: "1949",
-      description: "A dystopian novel set in a totalitarian society.",
+    title: "Computer Networking",
+    author: "James Kurose",
+    branch: "Information Technology",
+    year: 2,
+   
+    description: "An in-depth exploration of networking principles, protocols, and technologies.",
       image: "https://www.gutenberg.org/cache/epub/37415/pg37415.cover.medium.jpg", // Reliable cover image
       sellerName: "Bob Smith",
       sellerContact: "098-765-4321",
@@ -35,11 +37,12 @@ const App = () => {
     },
     {
       id: 3,
-      title: "To Kill a Mockingbird",
-      author: "Harper Lee",
-      branch: "Classic Fiction",
-      year: "1960",
-      description: "A novel about racial injustice in the Deep South.",
+      title: "Database System Concepts",
+      author: "Abraham Silberschatz",
+      branch: "Computer Science",
+      year: 3,
+     
+      description: "Fundamental concepts and techniques of database management systems.",
       image: "https://www.gutenberg.org/cache/epub/18378/pg18378.cover.medium.jpg", // Reliable cover image
       sellerName: "Charlie Brown",
       sellerContact: "555-123-4567",
@@ -47,11 +50,12 @@ const App = () => {
     },
     {
       id: 4,
-      title: "Pride and Prejudice",
-      author: "Jane Austen",
-      branch: "Classic Literature",
-      year: "1813",
-      description: "A romantic novel that critiques the British landed gentry.",
+      title: "Digital Electronics",
+      author: "John M. Yarbrough",
+      branch: "Electronics",
+      year: 2,
+  
+      description: "Introduction to digital electronics and logic design.",
       image: "https://www.gutenberg.org/cache/epub/1342/pg1342.cover.medium.jpg", // Reliable cover image
       sellerName: "David Wilson",
       sellerContact: "321-654-9870",
@@ -59,11 +63,12 @@ const App = () => {
     },
     {
       id: 5,
-      title: "Moby Dick",
-      author: "Herman Melville",
-      branch: "Adventure Fiction",
-      year: "1851",
-      description: "The narrative of Captain Ahab's obsessive quest for revenge against the giant white whale, Moby Dick.",
+    title: "Microprocessor Architecture",
+    author: "N. Senthil Kumar",
+    branch: "Electronics",
+    year: 3,
+
+    description: "A guide to microprocessor design and architecture.",
       image: "https://www.gutenberg.org/cache/epub/2701/pg2701.cover.medium.jpg", // Reliable cover image
       sellerName: "Eve Adams",
       sellerContact: "222-333-4444",
