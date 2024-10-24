@@ -10,7 +10,7 @@ const booksData = [
     author: "Thomas H. Cormen",
     branch: "Computer Science",
     year: 1,
-    image: "/images/book1.jpg",
+    image: "https://m.media-amazon.com/images/I/61ZYxrQEpCL._AC_UF1000,1000_QL80_.jpg",
     description: "A comprehensive introduction to the modern study of computer algorithms.",
   },
   {
@@ -19,7 +19,7 @@ const booksData = [
     author: "James Kurose",
     branch: "Information Technology",
     year: 2,
-    image: "/images/book2.jpg",
+    image: "https://cdn11.bigcommerce.com/s-phtso/images/stencil/1024x1024/products/5834/7304/9781292405469-V1__47397.1634978736.jpg?c=2",
     description: "An in-depth exploration of networking principles, protocols, and technologies.",
   },
   {
@@ -28,7 +28,7 @@ const booksData = [
     author: "Abraham Silberschatz",
     branch: "Computer Science",
     year: 3,
-    image: "/images/book3.jpg",
+    image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1648666601i/60721505.jpg",
     description: "Fundamental concepts and techniques of database management systems.",
   },
   {
@@ -37,7 +37,7 @@ const booksData = [
     author: "John M. Yarbrough",
     branch: "Electronics",
     year: 2,
-    image: "/images/book4.jpg",
+    image: "https://rukminim1.flixcart.com/image/1408/1408/book/5/8/3/digital-logic-applications-and-design-original-imaey8hzyjrcj8ah.jpeg?q=90",
     description: "Introduction to digital electronics and logic design.",
   },
   {
@@ -46,7 +46,7 @@ const booksData = [
     author: "N. Senthil Kumar",
     branch: "Electronics",
     year: 3,
-    image: "/images/book5.jpg",
+    image: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348540128i/10266249.jpg",
     description: "A guide to microprocessor design and architecture.",
   },
   {
@@ -55,7 +55,7 @@ const booksData = [
     author: "Abraham Silberschatz",
     branch: "Computer Science",
     year: 4,
-    image: "/images/book6.jpg",
+    image: "https://m.media-amazon.com/images/I/51t52QCaxNL.jpg",
     description: "Detailed coverage of modern operating system design and implementation.",
   },
 ];
