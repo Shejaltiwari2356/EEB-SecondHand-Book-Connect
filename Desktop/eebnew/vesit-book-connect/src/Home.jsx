@@ -49,13 +49,13 @@ const Home = () => {
       <section className="py-20 bg-blue-50">
         <h2 className="text-4xl font-bold text-center mb-8 text-blue-600">Featured Books</h2>
         <div className="flex overflow-x-auto space-x-4 py-4 scrollbar-hide">
-          {[...Array(5)].map((_, index) => (
+          {[...Array(8)].map((_, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md p-4 min-w-[250px] transition-transform hover:shadow-xl">
               <img src={`https://picsum.photos/250/250?random=${index + 3}`} alt={`Book ${index + 1}`} className="h-48 w-full object-cover rounded-t-lg" />
               <h3 className="text-xl font-semibold mt-4 text-blue-600">Book Title {index + 1}</h3>
               <p className="text-blue-600">Author: Author {index + 1}</p>
               <p className="text-blue-600">Branch: Branch {index + 1}</p>
-              <p className="text-blue-600">Year: {index + 1}</p>
+              <p className="text-blue-600">Year: {(index + 10)%4+1}</p>
               <Link to={`/books/${index + 1}`} className="mt-4 text-blue-600 hover:underline">View Details</Link>
             </div>
           ))}
@@ -79,7 +79,7 @@ const Home = () => {
       <section className="py-20 bg-blue-50">
         <h2 className="text-4xl font-bold text-center mb-8 text-blue-600">What Our Users Say</h2>
         <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {['User A', 'User B', 'User C'].map((user, index) => (
+          {['Shiven', 'Vedant', 'Kaushal'].map((user, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md p-4">
               <p className="italic text-blue-600">“This platform is a lifesaver! I found all the books I needed.”</p>
               <p className="font-bold mt-2 text-blue-600">{user}</p>
@@ -89,18 +89,18 @@ const Home = () => {
       </section>
 
       {/* Blog Section */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <h2 className="text-4xl font-bold text-center mb-8 text-blue-600">Latest Articles</h2>
         <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6">
           {[...Array(3)].map((_, index) => (
             <div key={index} className="bg-blue-100 rounded-lg p-4 shadow-md">
-              <h3 className="text-xl font-semibold text-blue-600">Article Title {index + 1}</h3>
-              <p className="mt-2 text-blue-600">Brief description of the article goes here...</p>
+              <h3 className="text-xl font-semibold text-blue-600">Find Your Next Favorite Book: Dive Into a World of Stories and Inspiration {index + 1}</h3>
+              <p className="mt-2 text-blue-600">"Discover your next great read with our curated collection of books across every genre. From timeless classics to the latest bestsellers, dive into a world of stories waiting for you."</p>
               <Link to={`/blog/${index + 1}`} className="text-blue-600 hover:underline">Read more</Link>
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Section */}
       <section className="py-20 bg-blue-50">
